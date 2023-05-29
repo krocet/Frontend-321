@@ -1,0 +1,51 @@
+:root {
+  --body-color: #ffffff; /* общий фон */
+
+
+  --title-color: #222222; /* цвет заголовков */
+  --subtitle-color: #000000; /* цвет подзаголовков */
+
+  --nav-link-color: #222222; /* цвет ссылок в навигации */
+
+  --accent-color: #FF385C; /* основной цвет тем */
+
+  --bg-hover: #F7F7F7;
+
+  --button-text-color-modal: #000000; /* цвет кнопки в модалке */
+
+  --footer_color_text: #000000; /* цвет © 2022 Airbnb, Inc. */
+
+}
+
+/* logo */
+.header-logo svg {
+  --logo-fill: #22222;
+}
+
+
+/* btn-primary */
+.btn-primary {
+  --button-bg-color: #FF385C;
+  --button-text-color: #ffffff;
+}
+
+/* btn-ghost */
+.btn-ghost {
+ 
+}
+
+
+/* forms */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type="tel"],
+textarea {
+  --input-bg-color: #ffffff;
+  --input-border-color: #B0B0B0;
+}
+
+
+
+
+
