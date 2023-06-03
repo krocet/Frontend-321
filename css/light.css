@@ -17,6 +17,17 @@
 
   --label-modal-checkbox: #000000; /*color modal label checkbox*/
 
+  --avatar-bg: #717171; /* цвет аватар */
+
+  /* dropdown */
+  --dropdown-button-bg: #ffffff;
+  --dropdown-border-color: #ddd;
+  --dropdown-box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+
+  /* footer */
+  --footer-bg: #f7f7f7;
+  --footer-link-color: #222222;
+
 }
 
 /* logo */
