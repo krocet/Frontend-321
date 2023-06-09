@@ -165,7 +165,57 @@
     <main>
         <section class="help">
             <div class="container">
-                <h1>Help Page</h1>
+                <h1>Tabs component</h1>
+
+                <div class="tabs">
+                    <div class="tabs-list">
+                        <button class="tabs-btn tabs-btn__active" data-tabs-path="movies">Movies</button>
+                        <button class="tabs-btn" data-tabs-path="shows">Shows</button>
+                        <button class="tabs-btn" data-tabs-path="example">Example</button>
+                    </div>
+
+                    <div class="container-help-text">
+                        <div class="help-text">
+                            <div>
+                                <div class="title-text-help">We’re here for you</div>
+                                <div class="subtext-text-help">Log in get help with your reservations, account, and more.</div>
+                            </div>
+                            <div class="btn-login-help">
+                                <button class="btn btn-airbnb">Log in or sign up</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs-content tabs-content__active" data-tabs-target="movies">
+                        <div class="content">
+                            <h2>Button 1</h2>
+                            <p>Lorem, ipsum dolor. 1</p>
+                        </div>
+                    </div>
+
+                    <div class="tabs-content" data-tabs-target="shows">
+                        <div class="content">
+                            <h2>Button 2</h2>
+                            <p>Lorem, ipsum dolor. 2</p>
+                        </div>
+                    </div>
+
+                    <div class="tabs-content" data-tabs-target="example">
+                        <div class="content">
+                            <h2>Button 3</h2>
+                            <p>Lorem, ipsum dolor. 3</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Guides for getting started</h2>
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- вставка данных по карточкам через JS  -->
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
             </div>
         </section>
     </main>
@@ -276,6 +326,8 @@
         </div>
     </footer>
 
+
+    <script src="lib/swiper.js"></script>
     <script src="js/theme-switcher.js"></script>
     <script type="module" src="js/help.js"></script>
 </body>
