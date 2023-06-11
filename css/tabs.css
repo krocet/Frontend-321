@@ -1,14 +1,14 @@
+/*tabs*/
 .tabs {
     margin-bottom: 24px;
 }
 
 
 .tabs-list {
-    background: #ebebeb;
     border-radius: 50px;
-    margin-bottom: 36px;
     padding: 4px;
     display: inline-flex;
+    margin-top: 30px
 }
 
 .tabs-btn {
@@ -24,8 +24,7 @@
 }
 
 .tabs-btn__active {
-    background: #7c79791a;
-    box-shadow: 0 6px 17px #00000014;
+    box-shadow: 0px 1px 0px 0px #000000;
 }
 
 .tabs-content {
@@ -34,4 +33,53 @@
 
 .tabs-content__active {
     display: flex;
+}
+
+.tabs-underline {
+    background-color: #000000;
+    height: 1px;
+}
+
+
+
+
+
+/*topics*/
+.container-topics {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    /*background: red;*/
+}
+
+.topics-text {
+    border-bottom: 1px solid #dddddd;
+}
+
+.topics {
+    display: grid;
+    margin-top: 37px;
+    grid-gap: 32px 16px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.topics-heading {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #222222;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.topics-link {
+    line-height: 25px;
+    font-weight: 400;
+    color: #717171;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
 }
