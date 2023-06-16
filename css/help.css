@@ -174,19 +174,21 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .details-text {
   line-height: 87px;
-  margin: 15px 100px;
+  margin: 15px 0px;
 }
 
 .details-information {
   display: flex;
   justify-content: center;
+  max-width: 100%;
 }
 
 .details-icon {
   overflow: hidden;
   border-radius: 17px;
   background-color: #0000006e;
-  margin-right: 15px;
+  margin-right: 110px;
+  cursor: pointer;
 }
 
 .details-icon-text {
@@ -198,6 +200,13 @@ input[type="search"]::-webkit-search-cancel-button {
   max-width: 355px;
   margin-left: 45px;
   cursor: pointer;
+}
+
+.details-link {
+  color: #222222;
+  margin-left: 45px;
+  text-decoration: underline;
+  font-size: 18px;
 }
 
 
