@@ -31,6 +31,13 @@
   --footer-bg: #292929;
   --footer-link-color: #ffffff;
 
+  /*bg-body*/
+  --bg-color-body: #292929;
+
+
+  /*cards*/
+  --cards-link-color: #ffffff;
+
 }
 
 /* logo */

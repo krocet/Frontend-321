@@ -9,7 +9,7 @@
 
   --accent-color: #FF385C; /* основной цвет тем */
 
-  --bg-hover: #F7F7F7;
+  --bg-hover: #eee8e8;
 
   --button-text-color-modal: #000000; /* цвет кнопки в модалке */
 
@@ -27,6 +27,13 @@
   /* footer */
   --footer-bg: #f7f7f7;
   --footer-link-color: #222222;
+
+  /*bg-body*/
+  --bg-color-body: #f7f7f7;
+
+  /*cards*/
+  --cards-link-color: #222222;
+
 
 }
 
