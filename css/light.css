@@ -9,7 +9,7 @@
 
   --accent-color: #FF385C; /* основной цвет тем */
 
-  --bg-hover: #F7F7F7;
+  --bg-hover: #eee8e8;
 
   --button-text-color-modal: #000000; /* цвет кнопки в модалке */
 
@@ -19,6 +19,8 @@
 
   --avatar-bg: #717171; /* цвет аватар */
 
+  --text-color: #222222; /*цвет текста (h1,h2,h3)*/
+
   /* dropdown */
   --dropdown-button-bg: #ffffff;
   --dropdown-border-color: #ddd;
@@ -27,6 +29,16 @@
   /* footer */
   --footer-bg: #f7f7f7;
   --footer-link-color: #222222;
+
+  /*bg-body*/
+  --bg-color-body: #f7f7f7;
+
+  /*cards*/
+  --cards-link-color: #222222;
+
+  /*help*/
+  --help-container-h1: #222222;
+  --text-help: #222222;
 
 }
 

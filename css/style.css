@@ -25,6 +25,7 @@ h2,
 h3,
 p {
   margin: 0;
+  color: var(--text-color);
 }
 
 a {
@@ -158,6 +159,7 @@ img {
   font-size: 60px;
   line-height: 52px;
   margin-bottom: 24px;
+  color: #222222;
 }
 
 .banner-title span {
@@ -207,6 +209,7 @@ img {
 /* cards */
 .cards {
   padding: 30px 0;
+  background-color: var(--bg-color-body)
 }
 
 .card-wrapper {
@@ -286,6 +289,7 @@ img {
   overflow-x: hidden;
   text-overflow: ellipsis;
   max-width: 230px;
+  color: var(--cards-link-color);
 }
 
 .card-text__title,
@@ -293,6 +297,7 @@ img {
   font-size: 14px;
   margin-bottom: 8px;
   font-weight: 600;
+  color: var(--cards-link-color);
 }
 
 .text-secondary {
@@ -323,6 +328,7 @@ img {
   font-weight: 600;
   color: #222222;
   position: relative;
+  color: var(--cards-link-color);
 }
 
 .price-current::after {
@@ -341,7 +347,7 @@ img {
 
 h3 {
   font-size: 16px;
-  color: #222222;
+  color: var(--text-color);
   line-height: 19px;
 }
 
@@ -448,7 +454,7 @@ h3 {
   font-size: 14px;
   font-weight: normal;
   margin-bottom: 8px;
-  color: #5E5E5E;
+  color: var(--cards-link-color);
 }
 
 .social_network {
@@ -589,6 +595,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  border-bottom: 1px solid var(--bg-hover);
 }
 
 .flex {
