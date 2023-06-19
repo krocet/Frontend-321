@@ -25,6 +25,7 @@ h2,
 h3,
 p {
   margin: 0;
+  color: var(--text-color);
 }
 
 a {
@@ -158,6 +159,7 @@ img {
   font-size: 60px;
   line-height: 52px;
   margin-bottom: 24px;
+  color: #222222;
 }
 
 .banner-title span {
@@ -207,6 +209,7 @@ img {
 /* cards */
 .cards {
   padding: 30px 0;
+  background-color: var(--bg-color-body)
   background-color: var(--bg-color-body);
 }
 
@@ -345,7 +348,7 @@ img {
 
 h3 {
   font-size: 16px;
-  color: #222222;
+  color: var(--text-color);
   line-height: 19px;
 }
 

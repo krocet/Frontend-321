@@ -12,19 +12,25 @@
 }
 
 .tabs-btn {
-    color: #222;
+    color: #ffffff;
     min-width: 151px;
     cursor: pointer;
-    background-color: #0000;
-    border: 2px solid #0000;
+    border-radius: 6px;
+    background-color: #ce0d62;
+    border: 2px solid #7e7e7e;
     outline: none;
     padding: 6.5px 40px;
     font-size: 14px;
     font-weight: 500;
 }
 
+.tabs-btn:hover {
+    transition: 1s;
+    background: #fc036f;
+}
+
 .tabs-btn__active {
-    box-shadow: 0px 1px 0px 0px #000000;
+    box-shadow: 0px 1px 3px 1px #7e7e7e;
 }
 
 .tabs-content {
@@ -36,7 +42,7 @@
 }
 
 .tabs-underline {
-    background-color: #000000;
+    background-color: #dddddd;
     height: 1px;
 }
 
@@ -67,7 +73,6 @@
     font-size: 18px;
     line-height: 24px;
     font-weight: 600;
-    color: #222222;
     -webkit-text-decoration: underline;
     text-decoration: underline;
 }
@@ -75,7 +80,6 @@
 .topics-link {
     line-height: 25px;
     font-weight: 400;
-    color: #717171;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;

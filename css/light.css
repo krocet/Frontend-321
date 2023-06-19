@@ -19,6 +19,8 @@
 
   --avatar-bg: #717171; /* цвет аватар */
 
+  --text-color: #222222; /*цвет текста (h1,h2,h3)*/
+
   /* dropdown */
   --dropdown-button-bg: #ffffff;
   --dropdown-border-color: #ddd;
@@ -33,6 +35,11 @@
 
   /*cards*/
   --cards-link-color: #222222;
+
+
+  /*help*/
+  --help-container-h1: #222222;
+  --text-help: #222222;
 
 
 }
