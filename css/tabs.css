@@ -17,24 +17,26 @@
     cursor: pointer;
     border-radius: 6px;
     background-color: #ce0d62;
-    border: 2px solid #7e7e7e;
-    outline: none;
     padding: 6.5px 40px;
     font-size: 14px;
-    font-weight: 500;
 }
 
-.tabs-btn:hover {
-    transition: 1s;
-    background: #fc036f;
-}
 
 .tabs-btn__active {
     box-shadow: 0px 1px 3px 1px #7e7e7e;
+    background-color: #e61e4d;
 }
 
 .tabs-content {
     display: none;
+}
+
+.content-img {
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .tabs-content__active {
